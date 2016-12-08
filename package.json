@@ -1,8 +1,8 @@
 {
   "name": "pdfmake-m0ngr31",
-  "version": "0.1.31",
+  "version": "0.1.32",
   "description": "Client/server side PDF printing in pure JavaScript with fix for quick printing",
-  "main": "src/printer.js",
+  "main": "build/pdfmake.min.js",
   "directories": {
     "test": "tests"
   },
