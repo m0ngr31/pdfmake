@@ -24935,7 +24935,7 @@
 	  debug('flow', state.flowing);
 	  if (state.flowing) {
 	    do {
-	      var chunk = stream.read();
+	      var chunk = stream.read(9007199254740991);
 	    } while (null !== chunk && state.flowing);
 	  }
 	}
